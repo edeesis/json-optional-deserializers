@@ -1,0 +1,11 @@
+plugins {
+    id 'java-library'
+    id "org.jetbrains.kotlin.jvm"
+}
+
+dependencies {
+    compileOnly 'org.projectlombok:lombok:1.18.24'
+    annotationProcessor 'org.projectlombok:lombok:1.18.24'
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+}

@@ -1,0 +1,9 @@
+
+rootProject.name = 'json-optional-deserializers'
+
+include 'example-objects'
+include 'micronaut-serde'
+include 'micronaut-tests'
+include 'json-optional'
+include 'jackson'
+

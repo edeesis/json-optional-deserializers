@@ -1,0 +1,18 @@
+plugins {
+    id 'java-library'
+    id "org.jetbrains.kotlin.jvm"
+    id "org.jetbrains.kotlin.kapt"
+    id 'io.micronaut.minimal.library' version '3.4.0'
+}
+
+micronaut {
+    version "3.4.3"
+}
+
+dependencies {
+    api project(":json-optional")
+
+    implementation 'io.micronaut.serde:micronaut-serde-api:1.0.1'
+    implementation 'io.micronaut.serde:micronaut-serde-support:1.0.1'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
+}

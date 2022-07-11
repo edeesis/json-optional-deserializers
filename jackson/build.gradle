@@ -1,0 +1,15 @@
+plugins {
+    id 'java-library'
+}
+
+group 'com.edeesis'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    api 'com.fasterxml.jackson.core:jackson-core:2.13.3'
+    implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.13.3'
+}
